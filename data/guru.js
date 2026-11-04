@@ -1,0 +1,42 @@
+// Daftar guru — diambil dari repo jadwal guru (X:\jadwalguruabbs, DATA.teachers)
+// n    = nickname (dipakai di jadwal)
+// nama = nama lengkap
+// g    = kelompok pendampingan: "putra" | "putri"
+var GURU = [
+  { n: "Ms Dila"   , nama: "Adila Rahmah"                    , g: "putri" },
+  { n: "Ms Fatma"  , nama: "Fatma Roudhotul Rafida Kolis"    , g: "putri" },
+  { n: "Ms Robi"   , nama: "Siti Robiatul Adawiyah"          , g: "putri" },
+  { n: "Ms Rohmah" , nama: "Hari Rohmah"                     , g: "putri" },
+  { n: "Ms Wafda"  , nama: "Wafda Salsabila"                 , g: "putri" },
+  { n: "Mr Febri"  , nama: "Febri Cahya Syahputra"           , g: "putra" },
+  { n: "Ms Binti"  , nama: "Binti Qoeroti"                   , g: "putri" },
+  { n: "Ms Fitri"  , nama: "Fitri Nur Kolifah"               , g: "putri" },
+  { n: "Ms Nourma" , nama: "Scundy Nourma Pratiwi"           , g: "putri" },
+  { n: "Mr Amar"   , nama: "Muamar Fariq Salafy"             , g: "putra" },
+  { n: "Mr Ifan"   , nama: "Ifan Destya Adi Tama"            , g: "putra" },
+  { n: "Mr Jack"   , nama: "Joko Ariyanto"                   , g: "putra" },
+  { n: "Mr Musfiq" , nama: "Musfiq Amrulloh"                 , g: "putra" },
+  { n: "Ms Leita"  , nama: "Charlieta Nova Putri Fedito"     , g: "putri" },
+  { n: "Ms Qisthi" , nama: "Aulia Qisthi Rosyada"            , g: "putri" },
+  { n: "Ms Isti"   , nama: "Isti Qomah Nurul Izzati"         , g: "putri" },
+  { n: "Ms Putri"  , nama: "Iin Indah Saputri"               , g: "putri" },
+  { n: "Ms Syarah" , nama: "Syarah Karina Putri"             , g: "putri" },
+  { n: "Mr Hang"   , nama: "Hang Sakti Abdullah"             , g: "putra" },
+  { n: "Mr Joe"    , nama: "Muhammad Jauhari Ahmad"          , g: "putra" },
+  { n: "Mr Sharih" , nama: "Sharih Shadri"                   , g: "putra" },
+  { n: "Ms Arvira" , nama: "Ms Arvira"                       , g: "putri" },
+  { n: "Mr Arvin"  , nama: "Arvino Nurvieri Kusuma"          , g: "putra" },
+  { n: "Mr Pampam" , nama: "Danang Dwi Pambudi"              , g: "putra" },
+  { n: "Ms Khoim"  , nama: "Siti Khoimah"                    , g: "putri" },
+  { n: "Ms Yona"   , nama: "Yona Puspa Ningtias"             , g: "putri" },
+  { n: "Ms Zahro"  , nama: "Ms Zahro"                        , g: "putri" },
+  { n: "Ms Nia"    , nama: "Asnia Novitasari"                , g: "putri" },
+  { n: "Ust Amin"  , nama: "Amien Nur Wicaksono"             , g: "putra" },
+  { n: "Ust Yoki"  , nama: "Yoki Wirawan"                    , g: "putra" },
+  { n: "Us Naya"   , nama: "Siti Sirril Inayah"              , g: "putri" },
+  { n: "Us Usaidah", nama: "Us Usaidah"                      , g: "putri" },
+  { n: "Ust Andi"  , nama: "Andi Wijayanto"                  , g: "putra" },
+  { n: "Ust Fahmi" , nama: "Muhammad Fahmi Aziz"             , g: "putra" },
+  { n: "Us Ida"    , nama: "Ida Aryani S"                    , g: "putri" },
+  { n: "Us Rizqia" , nama: "Siti Zamronah Rizqiah"           , g: "putri" }
+];

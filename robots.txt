@@ -1,0 +1,5 @@
+# Halaman tidak diindeks mesin pencari — ini aplikasi internal sekolah.
+# Aturan di bawah menutup semua crawler.
+
+User-agent: *
+Disallow: /
